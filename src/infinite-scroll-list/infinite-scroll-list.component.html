@@ -1,0 +1,9 @@
+<ul
+  appScrollReachBottom
+  [bottomOffsetPx]="100"
+  (onBottomReached)="loadMoreUsers()"
+>
+  <li *ngFor="let user of loadedUsers; let i = index; trackBy: trackByFn">
+    <span>{{ i + 1 }} : {{ user.name }} {{ user.age }}</span>
+  </li>
+</ul>
