@@ -1,3 +1,3 @@
 # infinite-scroll
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Gerphelius/infinite-scroll)
+Infinite scroll using intersection observable
